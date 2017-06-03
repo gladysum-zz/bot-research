@@ -1,2 +1,0 @@
-# medibot
-Medibot for Hackathon
