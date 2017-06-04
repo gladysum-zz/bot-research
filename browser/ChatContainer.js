@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import axios from 'axios';
 import TextField from 'material-ui/TextField';
-import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
 import ChatComponent from './ChatComponent';
 import {addInputAction, addResponseAction} from './reducer'
 
@@ -47,7 +47,7 @@ class ChatContainer extends React.Component {
             <TextField hintText="Type a message..." value={this.state.value} onChange={this.handleChange}/>
           </div>
           <div className="submit-button-container">
-            <FlatButton type="submit" label="Submit" className="submit-button" primary={true} />
+            <RaisedButton type="submit" label="Submit" className="submit-button" primary={true} />
           </div>
         </form>
       </div>

@@ -5,9 +5,10 @@
 }
 
 .background {
-  height: 650px;
+  padding-top: 15px;
+  height:98vh;
   margin: -2% -1% -1% -1%;
-  background-color: #98AFC7
+  background-color: #E5E4E2;
 }
 
 .chat-col-left {
@@ -25,38 +26,51 @@
 .title {
   text-align: center;
   font-size: 44px;
-  color: #f46b22;
+  color: #0020C2;
   font-weight: bold;
+  line-height: .1em;
+}
+
+.results-title {
+  color: #737CA1;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1em;
 }
 
 .chat-container {
-  height: 520px;
-  margin: 4px;
+  height: 85vh;
+  margin: -5px 4px 0 15px;
   padding: 4px;
-  background-color: aqua;
-  border-radius: 30px;
 }
 
 .result-container {
-  height: 520px;
-  margin: 4px;
+  height: 85vh;
+  margin: -5px 15px 0 4px;
   padding: 4px;
-  background-color: aqua;
-  border-radius: 30px;
 }
 
 #chat-background {
   height: 340px;
   margin-bottom: 0;
   padding-bottom: 5%;
-  background-color: white;
-  margin-top: -4%;
+  background-color: #C6DEFF;
+  margin-top: -5%;
+  border-radius: 30px 30px 0 0;
 }
 
 #result-background {
-  height: 500px;
-  margin-bottom: 0;
-  padding-bottom: 5%;
+  height: 74vh;
+  background-color: white;
+}
+
+.result-list {
+  height: 100%;
+  overflow-y: auto;
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: white;
 }
 
@@ -71,8 +85,8 @@
 }
 
 #statement-by-me {
-  background-color: #3BB9FF !important;
-  color: white !important;
+  background-color: white !important;
+  color: black !important;
 }
 
 #statement-by-watson {
@@ -96,6 +110,7 @@
   text-align : left;
   background-color: #FBF6D9;
   z-index: 1;
+  border-radius: 0 0 30px 30px;
 }
 
 .submit-button-container {
@@ -104,7 +119,7 @@
   text-align: right;
 }
 .submit-button {
-  background-color: #f46b22 !important;
+  background-color: #7BCCB5 !important;
   border-radius: 8px !important;
   color: white !important;
   text-align: center;
@@ -112,7 +127,7 @@
 }
 
 .submit-button:hover {
-  background-color: #dc5406 !important;
+  background-color: #3EA99F !important;
 }
 
 

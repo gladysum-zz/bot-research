@@ -1,6 +1,6 @@
 import React from 'react';
 import ChatContainer from './ChatContainer';
-import ResultContainer from './Results';
+import ResultContainer from './ResultContainer';
 
 export default class App extends React.Component {
   constructor() {
@@ -15,11 +15,12 @@ export default class App extends React.Component {
     return (
       <div className="background" id="app">
         <h1 className="title">
-          Medibot
+          MediBot
         </h1>
 
 
         <div className="chat-col-left">
+
           <ChatContainer />
         </div>
 
