@@ -1,10 +1,10 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import axios from 'axios';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import ChatComponent from './ChatComponent';
-import {addInputAction, addResponseAction} from './reducer'
+import {addInputAction, addResponseAction, outputResultsAction} from './reducer';
 
 class ChatContainer extends React.Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class ChatContainer extends React.Component {
     // Send input to Watson; update redux store with Watson's response
     axios.post('/', {input: input})
     .then(res=>res.data)
-    .then(response=>{this.props.addResponse(response)})
+    .then(response=>{this.props.outputResults(response)})
     .catch(error=>{console.log(error)});
   }
 
@@ -65,6 +65,9 @@ const mapDispatchToProps = dispatch => ({
   },
   addResponse: response => {
     dispatch(addResponseAction(response))
+  },
+  outputResults: results => {
+    dispatch(outputResultsAction(results))
   }
 })
 

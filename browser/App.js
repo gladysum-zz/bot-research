@@ -15,7 +15,7 @@ export default class App extends React.Component {
     return (
       <div className="background" id="app">
         <h1 className="title">
-          MediBot
+          Bot Research Assistant
         </h1>
 
 

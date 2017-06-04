@@ -37,7 +37,7 @@ export default class Chat extends React.Component {
           }
         }
       >
-        {this.props.messages.map((message, index) => {return (
+        {this.props.messages ? this.props.messages.map((message, index) => {return (
           <div key={index} style={{textAlign: (message[0] === 'me') ? "left" : "right"}}>
 
             <Paper className="statement-bubble" zDepth={1} style={{verticalAlign: "middle", display: "inline-block"}} id={`statement-by-${message[0]}`}>
@@ -46,7 +46,7 @@ export default class Chat extends React.Component {
               </li>
             </Paper>
           </div>
-        )})}
+        )}) : null}
       </ul>
       </div>
     )

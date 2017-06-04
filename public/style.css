@@ -65,13 +65,14 @@
   background-color: white;
 }
 
-.result-list {
+#result-list {
   height: 100%;
   overflow-y: auto;
   list-style-type: none;
   padding-left: 15px;
   padding-right: 15px;
   background-color: white;
+  color: #616D7E;
 }
 
 .chat {
@@ -130,4 +131,36 @@
   background-color: #3EA99F !important;
 }
 
+.link {
+  text-decoration: none;
+}
 
+.article-title {
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.article-author {
+  font-size: 16px;
+}
+
+.article-summary {
+  font-size: 12px;
+}
+
+.similar-article {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.article-title:hover {
+  color:#4863A0;
+}
+
+.article-title:hover {
+  color:#4863A0;
+}
+
+.similar-article:hover {
+  color:#4863A0;
+}

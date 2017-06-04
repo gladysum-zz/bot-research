@@ -1,5 +1,5 @@
 {
-  "name": "medibot",
+  "name": "Bot-Research-Assistant",
   "version": "1.0.0",
   "description": "Mucho Gusto is a language-learning app that leverages artificial intelligence and is powered by IBM Watson Conversation Service",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "webpack -w & NODE_ENV=production nodemon server.js"
   },
   "keywords": [],
-  "author": "Gladys Um, Akshay Kumar Vikram, Vishnu Pillai",
+  "author": "Gladys Um",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.1",

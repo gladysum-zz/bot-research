@@ -21,4 +21,7 @@ const mapStateToProps = state => ({
   results: state.results
 })
 
-export default connect(mapStateToProps)(ResultContainer)
+const mapDispatchToProps = dispatch => ({
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(ResultContainer)
