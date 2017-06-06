@@ -72,7 +72,6 @@
   padding-left: 15px;
   padding-right: 15px;
   background-color: white;
-  color: #616D7E;
 }
 
 .chat {
@@ -135,21 +134,35 @@
   text-decoration: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .article-title {
+  color: #616D7E;
   font-size: 20px;
   font-weight:bold;
 }
 
 .article-author {
+  color: #616D7E;
   font-size: 16px;
 }
 
 .article-summary {
-  font-size: 12px;
-}
-
-.similar-article {
-  display: inline-block;
+  color: #616D7E;
   font-size: 12px;
 }
 
@@ -157,10 +170,7 @@
   color:#4863A0;
 }
 
-.article-title:hover {
+.article-author:hover {
   color:#4863A0;
 }
 
-.similar-article:hover {
-  color:#4863A0;
-}

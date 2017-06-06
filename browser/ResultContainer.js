@@ -4,8 +4,8 @@ import { connect } from 'react-redux'
 import ResultList from './ResultList';
 
 class ResultContainer extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
   }
 
   render () {
@@ -21,7 +21,4 @@ const mapStateToProps = state => ({
   results: state.results
 })
 
-const mapDispatchToProps = dispatch => ({
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(ResultContainer)
+export default connect(mapStateToProps)(ResultContainer)

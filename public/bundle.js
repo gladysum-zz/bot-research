@@ -30180,10 +30180,10 @@
 	var ChatContainer = function (_React$Component) {
 	  _inherits(ChatContainer, _React$Component);
 	
-	  function ChatContainer(props) {
+	  function ChatContainer() {
 	    _classCallCheck(this, ChatContainer);
 	
-	    var _this = _possibleConstructorReturn(this, (ChatContainer.__proto__ || Object.getPrototypeOf(ChatContainer)).call(this, props));
+	    var _this = _possibleConstructorReturn(this, (ChatContainer.__proto__ || Object.getPrototypeOf(ChatContainer)).call(this));
 	
 	    _this.state = {
 	      value: ''
@@ -37998,10 +37998,10 @@
 	var Chat = function (_React$Component) {
 	  _inherits(Chat, _React$Component);
 	
-	  function Chat(props) {
+	  function Chat() {
 	    _classCallCheck(this, Chat);
 	
-	    var _this = _possibleConstructorReturn(this, (Chat.__proto__ || Object.getPrototypeOf(Chat)).call(this, props));
+	    var _this = _possibleConstructorReturn(this, (Chat.__proto__ || Object.getPrototypeOf(Chat)).call(this));
 	
 	    _this.handleScroll = _this.handleScroll.bind(_this);
 	    return _this;
@@ -38396,10 +38396,10 @@
 	var ResultContainer = function (_React$Component) {
 	  _inherits(ResultContainer, _React$Component);
 	
-	  function ResultContainer(props) {
+	  function ResultContainer() {
 	    _classCallCheck(this, ResultContainer);
 	
-	    return _possibleConstructorReturn(this, (ResultContainer.__proto__ || Object.getPrototypeOf(ResultContainer)).call(this, props));
+	    return _possibleConstructorReturn(this, (ResultContainer.__proto__ || Object.getPrototypeOf(ResultContainer)).call(this));
 	  }
 	
 	  _createClass(ResultContainer, [{
@@ -38418,11 +38418,7 @@
 	  };
 	};
 	
-	var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-	  return {};
-	};
-	
-	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(ResultContainer);
+	exports.default = (0, _reactRedux.connect)(mapStateToProps)(ResultContainer);
 
 /***/ }),
 /* 442 */
@@ -38483,10 +38479,10 @@
 	var ResultList = function (_React$Component) {
 	  _inherits(ResultList, _React$Component);
 	
-	  function ResultList(props) {
+	  function ResultList() {
 	    _classCallCheck(this, ResultList);
 	
-	    return _possibleConstructorReturn(this, (ResultList.__proto__ || Object.getPrototypeOf(ResultList)).call(this, props));
+	    return _possibleConstructorReturn(this, (ResultList.__proto__ || Object.getPrototypeOf(ResultList)).call(this));
 	  }
 	
 	  _createClass(ResultList, [{
