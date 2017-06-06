@@ -8,7 +8,6 @@ export default class ResultList extends React.Component {
   }
 
   render() {
-
     return (
       <div id="result-background">
         <h1 className="results-title"> Results</h1>
@@ -25,8 +24,6 @@ export default class ResultList extends React.Component {
               </a><br/>
 
               <p className="article-summary">{result.summary}</p>
-
-
 
             </div>
           )}) : null}

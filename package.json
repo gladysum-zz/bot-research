@@ -1,7 +1,7 @@
 {
   "name": "Bot-Research-Assistant",
   "version": "1.0.0",
-  "description": "Mucho Gusto is a language-learning app that leverages artificial intelligence and is powered by IBM Watson Conversation Service",
+  "description": "Research app that leverages natural language processing",
   "main": "index.js",
   "scripts": {
     "test": "",

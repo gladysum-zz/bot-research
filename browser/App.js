@@ -18,9 +18,7 @@ export default class App extends React.Component {
           Bot Research Assistant
         </h1>
 
-
         <div className="chat-col-left">
-
           <ChatContainer />
         </div>
 
