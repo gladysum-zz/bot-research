@@ -5,15 +5,6 @@ const initialState = {
   results: ["initial results"]
 }
 
-// const convert = object => {
-//   let result = [];
-//   for (let i in object) {
-//     result.push(object[i]);
-//   }
-//   return result;
-// }
-
-
 /* ------------ REDUCER ------------------ */
 
 const reducer = (state = initialState, action) => {
@@ -66,7 +57,6 @@ export const outputResultsAction = results => ({
   type: OUTPUT_RESULTS,
   payload: results
 })
-
 
 /* ------------------ DEFAULT EXPORT ------------------ */
 

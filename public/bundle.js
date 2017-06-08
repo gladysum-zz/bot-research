@@ -38265,15 +38265,6 @@
 	  messages: [['watson', "Hi, I'm your bot research assistant. How may I help you?"]],
 	  results: ["initial results"]
 	
-	  // const convert = object => {
-	  //   let result = [];
-	  //   for (let i in object) {
-	  //     result.push(object[i]);
-	  //   }
-	  //   return result;
-	  // }
-	
-	
 	  /* ------------ REDUCER ------------------ */
 	
 	};var reducer = function reducer() {
@@ -38488,7 +38479,6 @@
 	  _createClass(ResultList, [{
 	    key: 'render',
 	    value: function render() {
-	
 	      return _react2.default.createElement('div', { id: 'result-background' }, _react2.default.createElement('h1', { className: 'results-title' }, ' Results'), _react2.default.createElement('ul', { id: 'result-list' }, this.props.results ? this.props.results.map(function (result, index) {
 	        return _react2.default.createElement('div', { key: index }, _react2.default.createElement('a', { href: result.titleURL, target: '_blank', className: 'article-title' }, result.title), _react2.default.createElement('br', null), _react2.default.createElement('a', { href: result.authorURL, target: '_blank', className: 'article-author' }, result.author), _react2.default.createElement('br', null), _react2.default.createElement('p', { className: 'article-summary' }, result.summary));
 	      }) : null));
